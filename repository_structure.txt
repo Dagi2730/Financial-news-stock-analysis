@@ -1,0 +1,51 @@
+Financial News & Stock Analysis - Repository Structure
+======================================================
+
+/data
+------
+Contains all raw and processed datasets including:
+- Financial news datasets (e.g., FNSPID)
+- Stock price data files
+- Any cleaned or transformed data used in analysis
+
+/notebooks
+----------
+Jupyter notebooks for exploratory data analysis (EDA) and initial investigations:
+- Data profiling and visualization
+- Sentiment analysis preparation
+- Initial attempts at technical indicator calculations
+
+/technical_indicators
+---------------------
+Scripts and notebooks demonstrating the usage of financial and technical indicator libraries such as TA-Lib and PyNance:
+- Calculation of common indicators like RSI, MACD, Moving Averages
+- Example visualizations and outputs
+
+/sentiment_analysis
+-------------------
+Code related to processing and analyzing textual financial news data:
+- Text cleaning and tokenization
+- Sentiment scoring or lexicon-based analysis
+- Preparation for further sentiment modeling
+
+/reports
+--------
+Project reports, including:
+- Interim reports documenting weekly progress and insights
+- Final comprehensive project report
+
+/requirements.txt
+-----------------
+List of Python dependencies required to run the project scripts and notebooks
+
+/README.md
+----------
+Overview of the project, setup instructions, and summary of key findings
+
+/repository_structure.txt
+-------------------------
+This file, describing the organization of the project repository for ease of understanding and collaboration
+
+.gitignore
+----------
+Git ignore file specifying files and folders to exclude from version control
