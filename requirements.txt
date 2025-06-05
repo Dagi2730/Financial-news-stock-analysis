@@ -1,6 +1,9 @@
-pandas
+gpandas
+numpy
 matplotlib
 seaborn
-numpy
-scikit-learn
 nltk
+textblob
+plotly
+python-dateutil
+pytest
