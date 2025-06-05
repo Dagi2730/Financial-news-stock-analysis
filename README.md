@@ -39,11 +39,6 @@ Financial news sentiment can influence investor behavior and market dynamics. Un
 - seaborn  
 - Jupyter Notebook  
 
-Install dependencies via pip:
-
-```bash
-pip install pandas numpy scipy matplotlib seaborn jupyter
-
 📈 Key Results
 Same-day correlations between sentiment and stock returns are close to zero and statistically insignificant for all tickers.
 
