@@ -1,32 +1,64 @@
-# 📈 Financial News & Stock Analysis 📊
+# 📊 Financial News & Stock Analysis
 
-## 🚀 Project Overview
+## 📋 Overview
 
-This project analyzes financial news data and its correlation with stock market movements. The goal is to leverage natural language processing (NLP) techniques, time series analysis, and financial indicators to gain insights that can support investment decision-making.
+This project analyzes the relationship between financial news sentiment and stock market returns for major technology stocks. Using daily news sentiment scores and historical stock prices, it investigates whether sentiment can predict short-term stock price movements.
 
-The analysis includes sentiment analysis on news headlines, exploratory data analysis (EDA) on stock price movements, and integration of advanced libraries like TA-Lib and PyNance for technical analysis.
+The analysis covers seven major tickers: **AAPL, AMZN, GOOG, META, MSFT, NVDA, and TSLA**. Key techniques include:
 
-## ✨ Features
+- 🔗 Data merging of stock prices and sentiment scores  
+- 📈 Calculation of daily stock returns  
+- 🔍 Correlation analysis between sentiment and returns (same-day and lagged)  
+- 📊 Visualization of correlation results  
+- ✍️ Summary of findings and insights  
 
-- 🧹 Data preprocessing and cleaning of financial news and stock datasets  
-- 🧠 Sentiment analysis using state-of-the-art NLP models  
-- 📉 Time series analysis and visualization of stock price data  
-- 📊 Use of financial technical indicators for enhanced market insight  
-- 💻 Interactive visualizations and dashboards (in development)  
+---
 
-## 📁 Project Structure
+## 🎯 Motivation
 
-- `notebooks/` – Jupyter notebooks containing data exploration, EDA, and model experiments  
-- `scripts/` – Python scripts for data processing, analysis, and visualization  
-- `data/` – Raw and processed datasets (not included in the repository for privacy/security)  
-- `README.md` – Project overview and instructions  
+Financial news sentiment can influence investor behavior and market dynamics. Understanding this relationship can support better trading strategies, risk management, and market prediction models. This project aims to assess if daily sentiment data provides meaningful signals for stock returns.
+
+---
+
+## 📂 Project Structure
+
+- 📓 `notebooks/`: Jupyter notebooks for exploratory data analysis (EDA), correlation computations, and visualizations.  
+- 📁 `data/`: Raw and processed datasets (stock prices, sentiment scores).  
+- 🛠️ `scripts/`: Python scripts for data processing and analysis (optional).  
+- 📄 `README.md`: This documentation file.  
+
+---
+
+## 🛠️ Requirements
+
+- Python 3.8+  
+- pandas  
+- numpy  
+- scipy  
+- matplotlib  
+- seaborn  
+- Jupyter Notebook  
+
+Install dependencies via pip:
+
+```bash
+pip install pandas numpy scipy matplotlib seaborn jupyter
+
+📈 Key Results
+Same-day correlations between sentiment and stock returns are close to zero and statistically insignificant for all tickers.
+
+Lagged sentiment (1-5 days prior) also shows no consistent significant correlation.
+
+Findings suggest that daily aggregated sentiment may not strongly predict daily stock returns in this dataset.
 
 🔮 Future Work
-📈 Complete integration of stock price sentiment correlation analysis
+Explore intraday sentiment data for finer resolution analysis.
 
-🖥️ Develop an interactive dashboard for real-time analysis and visualization
+Use alternative sentiment metrics or more advanced NLP techniques.
 
-🤖 Enhance the models with additional financial indicators and machine learning techniques
+Apply nonlinear models or machine learning to capture complex relationships.
 
-🤝 Contribution
-Contributions and suggestions are welcome! Please fork the repository and submit pull requests.
+Extend analysis to other sectors or global markets.
+
+👤 Author
+Dagmawit Andargachew
