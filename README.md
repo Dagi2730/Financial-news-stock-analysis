@@ -40,6 +40,7 @@ Financial news sentiment can influence investor behavior and market dynamics. Un
 - Jupyter Notebook  
 
 📈 Key Results
+
 Same-day correlations between sentiment and stock returns are close to zero and statistically insignificant for all tickers.
 
 Lagged sentiment (1-5 days prior) also shows no consistent significant correlation.
@@ -47,6 +48,7 @@ Lagged sentiment (1-5 days prior) also shows no consistent significant correlati
 Findings suggest that daily aggregated sentiment may not strongly predict daily stock returns in this dataset.
 
 🔮 Future Work
+
 Explore intraday sentiment data for finer resolution analysis.
 
 Use alternative sentiment metrics or more advanced NLP techniques.
@@ -56,4 +58,5 @@ Apply nonlinear models or machine learning to capture complex relationships.
 Extend analysis to other sectors or global markets.
 
 👤 Author
+
 Dagmawit Andargachew
